@@ -5,6 +5,24 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup Condition="'$(Configuration)'=='Debug'">
+    <Content Include="..\Win32\Debug\Ocean.Core.dll" Link="x86\Ocean.Core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\x64\Debug\Ocean.Core.dll" Link="x64\Ocean.Core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(Configuration)'=='Release'">
+    <Content Include="..\Win32\Release\Ocean.Core.dll" Link="x86\Ocean.Core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\x64\Release\Ocean.Core.dll" Link="x64\Ocean.Core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="GitVersionTask" Version="5.3.2">
       <PrivateAssets>all</PrivateAssets>
