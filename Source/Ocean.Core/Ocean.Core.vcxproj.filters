@@ -53,6 +53,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="OceanObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Random.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -160,6 +160,7 @@
     <ClInclude Include="Seaweed.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="OceanObject.cpp" />
     <ClCompile Include="Random.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
