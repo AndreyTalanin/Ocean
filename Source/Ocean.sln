@@ -13,6 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository Items", "Reposit
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocean", "Ocean\Ocean.csproj", "{24DDAA22-DF38-464E-AEDE-1D9CDAEB6AC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0DA5EB8C-7E49-4FD9-9826-D02707A5BE0D} = {0DA5EB8C-7E49-4FD9-9826-D02707A5BE0D}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ocean.Core", "Ocean.Core\Ocean.Core.vcxproj", "{0DA5EB8C-7E49-4FD9-9826-D02707A5BE0D}"
 EndProject
