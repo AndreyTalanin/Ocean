@@ -163,6 +163,7 @@
     <ClCompile Include="CarnivorousFish.cpp" />
     <ClCompile Include="HerbivorousFish.cpp" />
     <ClCompile Include="OceanObject.cpp" />
+    <ClCompile Include="OceanObjectFactory.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="Rock.cpp" />
     <ClCompile Include="Seaweed.cpp" />
