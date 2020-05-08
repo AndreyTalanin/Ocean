@@ -162,6 +162,7 @@
   <ItemGroup>
     <ClCompile Include="OceanObject.cpp" />
     <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Rock.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
