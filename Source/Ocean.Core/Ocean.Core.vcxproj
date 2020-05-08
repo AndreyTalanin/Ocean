@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CarnivorousFish.h" />
     <ClInclude Include="HerbivorousFish.h" />
     <ClInclude Include="OceanObject.h" />
     <ClInclude Include="OceanObjectType.h" />

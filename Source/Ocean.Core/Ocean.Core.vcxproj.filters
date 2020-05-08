@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CarnivorousFish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="HerbivorousFish.h">
       <Filter>Header Files</Filter>
     </ClInclude>
