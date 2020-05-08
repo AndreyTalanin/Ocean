@@ -146,6 +146,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BufferedOceanRenderer.h" />
+    <ClInclude Include="CarnivorousFish.h" />
+    <ClInclude Include="HerbivorousFish.h" />
+    <ClInclude Include="Ocean.h" />
+    <ClInclude Include="OceanCell.h" />
+    <ClInclude Include="OceanObject.h" />
+    <ClInclude Include="OceanObjectFactory.h" />
+    <ClInclude Include="OceanObjectType.h" />
+    <ClInclude Include="OceanRenderer.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Rock.h" />
+    <ClInclude Include="Seaweed.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
