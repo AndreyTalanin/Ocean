@@ -162,6 +162,7 @@
   <ItemGroup>
     <ClCompile Include="CarnivorousFish.cpp" />
     <ClCompile Include="HerbivorousFish.cpp" />
+    <ClCompile Include="OceanCell.cpp" />
     <ClCompile Include="OceanObject.cpp" />
     <ClCompile Include="OceanObjectFactory.cpp" />
     <ClCompile Include="Random.cpp" />
