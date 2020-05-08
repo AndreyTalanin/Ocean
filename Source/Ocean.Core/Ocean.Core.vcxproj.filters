@@ -24,6 +24,9 @@
     <ClInclude Include="OceanObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="OceanObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="OceanObjectType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
