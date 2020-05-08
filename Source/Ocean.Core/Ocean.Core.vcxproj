@@ -149,6 +149,7 @@
     <ClInclude Include="OceanObject.h" />
     <ClInclude Include="OceanObjectType.h" />
     <ClInclude Include="Random.h" />
+    <ClInclude Include="Rock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
