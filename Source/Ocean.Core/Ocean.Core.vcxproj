@@ -153,6 +153,7 @@
     <ClInclude Include="OceanObject.h" />
     <ClInclude Include="OceanObjectFactory.h" />
     <ClInclude Include="OceanObjectType.h" />
+    <ClInclude Include="OceanRenderer.h" />
     <ClInclude Include="Random.h" />
     <ClInclude Include="Rock.h" />
     <ClInclude Include="Seaweed.h" />
