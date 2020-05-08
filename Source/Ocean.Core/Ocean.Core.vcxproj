@@ -166,6 +166,7 @@
     <ClCompile Include="OceanCell.cpp" />
     <ClCompile Include="OceanObject.cpp" />
     <ClCompile Include="OceanObjectFactory.cpp" />
+    <ClCompile Include="OceanRenderer.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="Rock.cpp" />
     <ClCompile Include="Seaweed.cpp" />
