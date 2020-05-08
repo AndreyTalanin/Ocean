@@ -53,6 +53,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BufferedOceanRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="CarnivorousFish.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

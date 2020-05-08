@@ -160,6 +160,7 @@
     <ClInclude Include="Seaweed.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BufferedOceanRenderer.cpp" />
     <ClCompile Include="CarnivorousFish.cpp" />
     <ClCompile Include="HerbivorousFish.cpp" />
     <ClCompile Include="Ocean.cpp" />
