@@ -21,6 +21,9 @@
     <ClInclude Include="HerbivorousFish.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Ocean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="OceanCell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
