@@ -159,6 +159,9 @@
     <ClInclude Include="Rock.h" />
     <ClInclude Include="Seaweed.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Random.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
