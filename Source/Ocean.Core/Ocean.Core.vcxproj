@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClInclude Include="CarnivorousFish.h" />
     <ClInclude Include="HerbivorousFish.h" />
+    <ClInclude Include="OceanCell.h" />
     <ClInclude Include="OceanObject.h" />
     <ClInclude Include="OceanObjectFactory.h" />
     <ClInclude Include="OceanObjectType.h" />
