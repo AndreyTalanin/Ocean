@@ -159,6 +159,19 @@
     <ClInclude Include="Rock.h" />
     <ClInclude Include="Seaweed.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BufferedOceanRenderer.cpp" />
+    <ClCompile Include="CarnivorousFish.cpp" />
+    <ClCompile Include="HerbivorousFish.cpp" />
+    <ClCompile Include="Ocean.cpp" />
+    <ClCompile Include="OceanCell.cpp" />
+    <ClCompile Include="OceanObject.cpp" />
+    <ClCompile Include="OceanObjectFactory.cpp" />
+    <ClCompile Include="OceanRenderer.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Rock.cpp" />
+    <ClCompile Include="Seaweed.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
