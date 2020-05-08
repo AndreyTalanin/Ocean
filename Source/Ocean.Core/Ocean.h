@@ -45,4 +45,10 @@ public:
     void Update();
 };
 
+extern "C" __declspec(dllexport) void *__cdecl AllocateOcean(int32_t width, int32_t height);
+
+extern "C" __declspec(dllexport) void __cdecl UpdateOcean(void *oceanPtr);
+
+extern "C" __declspec(dllexport) void __cdecl FreeOcean(void *oceanPtr);
+
 #endif // _OCEAN_H_

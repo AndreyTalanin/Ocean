@@ -21,4 +21,10 @@ public:
     virtual void Draw() = 0;
 };
 
+extern "C" __declspec(dllexport) void *__cdecl AllocateOceanRenderer(void *oceanPtr, void *bufferPtr);
+
+extern "C" __declspec(dllexport) void __cdecl DrawOcean(void *oceanRendererPtr, void *bufferPtr);
+
+extern "C" __declspec(dllexport) void __cdecl FreeOceanRenderer(void *oceanRendererPtr);
+
 #endif // _OCEANRENDERER_H_
