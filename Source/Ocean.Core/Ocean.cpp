@@ -110,6 +110,21 @@ void Ocean::Update()
     }
 }
 
+void *__cdecl AllocateOcean(int32_t width, int32_t height)
+{
+    return new Ocean(width, height);
+}
+
+void __cdecl UpdateOcean(void *oceanPtr)
+{
+    ((Ocean *)oceanPtr)->Update();
+}
+
+void __cdecl FreeOcean(void *oceanPtr)
+{
+    delete (Ocean *)oceanPtr;
+}
+
 void Swap(int32_t *leftPtr, int32_t *rightPtr)
 {
     int32_t leftValue = *leftPtr;
