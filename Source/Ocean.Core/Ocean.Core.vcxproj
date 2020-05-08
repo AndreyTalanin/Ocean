@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="OceanObject.h" />
     <ClInclude Include="OceanObjectType.h" />
     <ClInclude Include="Random.h" />
   </ItemGroup>
