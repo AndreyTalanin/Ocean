@@ -59,6 +59,9 @@
     <ClCompile Include="HerbivorousFish.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ocean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="OceanCell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
